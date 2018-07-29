@@ -23,7 +23,7 @@ app.use(function(req, res, next) {
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 app.get("/", function(req, res) {
-    res.json({ message: "Welcome to our api. Use postman to test this API. GET for read, POST for new, PUT for edit and DELETE for delete"});   
+    res.json({ message: "Welcome to our api. Use postman to test this API. GET for read, POST for new, PUT for edit and DELETE for delete. Goodluck!!!"});   
 });
 // get all the bears (accessed at GET http://localhost:8080/api/bears)
 app.get("/cookbook", function(req, res) {
